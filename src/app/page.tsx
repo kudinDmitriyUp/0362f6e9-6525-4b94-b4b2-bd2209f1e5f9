@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
 import HeroSplit from '@/components/sections/hero/HeroSplit';
@@ -10,7 +10,7 @@ import FaqBase from '@/components/sections/faq/FaqBase';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import { TrendingUp, Clock, Users, Sparkles, Zap, Phone, Clock24, BarChart3, Settings, Shield, MessageSquare, Brain, Star } from "lucide-react";
+import { TrendingUp, Clock, Users, Sparkles, Zap, Phone, BarChart3, Settings, Shield, MessageSquare, Brain, Star } from "lucide-react";
 
 export default function AIBusinessPage() {
   return (
@@ -109,7 +109,7 @@ export default function AIBusinessPage() {
                   text: "Natural conversation handling"
                 },
                 {
-                  icon: Clock24,
+                  icon: Clock,
                   text: "Round-the-clock availability"
                 },
                 {
